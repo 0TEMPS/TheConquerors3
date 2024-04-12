@@ -81,7 +81,7 @@ UpdateEnemys()
 
 -- // Find the ScreenGui that Rayfield UI is stored in  \\ --
 for i,v in pairs(CoreGui:GetChildren()) do
-	if v:FindFirstChild("Rayfield") or v:FindFirstChild("Old Arrayfield") then
+	if v:FindFirstChild("Rayfield") or v:FindFirstChild("Old Arrayfield") or v.Name == "Rayfield" then
 		RayfieldContainer = v
 		print("Rayfield Parent Folder = "..v.Name)
 	end
