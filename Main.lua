@@ -564,7 +564,7 @@ end
 
 
 
-RayfieldContainer.Rayfield.Main.BackgroundTransparency = 1
+RayfieldContainer.Main.BackgroundTransparency = 1
 while true do
 	UpdateTeamList()
 	UpdateTeamAllies()
