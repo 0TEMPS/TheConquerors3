@@ -170,7 +170,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local RayElements = RayfieldContainer.Rayfield.Main.Elements
+local RayElements = RayfieldContainer.Main.Elements
 
 
 
